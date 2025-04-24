@@ -23,7 +23,8 @@ public class User implements UserDetails {
     private String fullName;
     private String email;
     private String password;
-    private String token;
+    private boolean isVerified = false;
+    private String otp;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

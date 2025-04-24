@@ -3,9 +3,7 @@ package com.bridgelabz.employeepayroll.dto;
 import lombok.Data;
 
 @Data
-public class RegisterDTO {
-    private String fullName;
+public class VerificationDTO {
     private String email;
-    private String password;
     private String otp;
 }
